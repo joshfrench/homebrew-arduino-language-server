@@ -14,6 +14,6 @@ class ArduinoLanguageServer < Formula
   end
 
   test do
-    system "#{bin}/arduino-language-server", "-v"
+    system "#{bin}/arduino-language-server", "--help"
   end
 end
