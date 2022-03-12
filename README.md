@@ -1,4 +1,4 @@
-# Joshfrench Arduino-language-server
+# Arduino-language-server
 
 ## How do I install these formulae?
 
