@@ -7,7 +7,7 @@ class ArduinoLanguageServer < Formula
 
   depends_on "go" => :build
   depends_on "arduino-cli"
-  depends_on "clangd"
+  depends_on "llvm"
 
   def install
     system "go", "build", *std_go_args(ldflags: "-s -w")
